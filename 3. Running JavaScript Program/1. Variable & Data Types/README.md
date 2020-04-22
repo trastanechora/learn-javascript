@@ -2,6 +2,7 @@
 Variables are used to store information in a computer program, they provide a way of labeling data with a descriptive name and they have data type (boolean, numeric, string). A variable in JavaScript can contain any data. A variable can at one moment be a string and at another be a number.
 
 Variable naming is in `camelCase` and you can declare any variable with `var`, `let`, and `const`
+Variable name is `case sensitive`
 
 |       | Redeclare | Hoisting | Block Scope | Global Props | Change Value |
 |-------|-----------|----------|-------------|--------------|--------------|
