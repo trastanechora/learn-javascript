@@ -24,6 +24,7 @@ console.log("last character:", lastCharacter);
 // ================== SUPLEMENTARY ======================
 // Selectively uncomment code below if you are currious about them
 // commonly used method of String
+
 // ***** String concat() Method *****
 // The concat() method is used to join two or more strings.
 // This method does not change the existing strings, but returns a new string containing the text of the joined strings.
@@ -32,6 +33,7 @@ console.log("last character:", lastCharacter);
 // var res = str1.concat(str2);
 // console.warn("res concat(): ", res) // res concat():  Hello world!
 // ======================================================
+
 // ***** String endsWith() Method *****
 // The endsWith() method determines whether a string ends with the characters of a specified string.
 // This method returns true if the string ends with the characters, and false if not.
@@ -40,6 +42,7 @@ console.log("last character:", lastCharacter);
 // var n = str.endsWith("universe.");
 // console.warn("res endsWith(): ", n) // res endsWith():  true
 // ======================================================
+
 // ***** String includes() Method *****
 // The includes() method determines whether a string contains the characters of a specified string.
 // This method returns true if the string contains the characters, and false if not.
@@ -48,6 +51,7 @@ console.log("last character:", lastCharacter);
 // var n = str.includes("world");
 // console.warn("res includes(): ", n) // res includes():  true
 // ======================================================
+
 // ***** String indexOf() Method *****
 // The indexOf() method returns the position of the first occurrence of a specified value in a string.
 // This method returns -1 if the value to search for never occurs.
@@ -57,6 +61,7 @@ console.log("last character:", lastCharacter);
 // var n = str.indexOf("welcome");
 // console.warn("res indexOf(): ", n) // res indexOf():  13
 // ======================================================
+
 // ***** String match() Method *****
 // The match() method searches a string for a match against a regular expression, and returns the matches, as an Array object.
 // Read more about regular expressions in our RegExp Tutorial and our RegExp Object Reference.
@@ -67,6 +72,7 @@ console.log("last character:", lastCharacter);
 // var res = str.match(/ain/g);
 // console.warn("res match(): ", res) // res match():  [ 'ain', 'ain', 'ain' ]
 // ======================================================
+
 // ***** String toUpperCase() Method *****
 // The toUpperCase() method converts a string to uppercase letters.
 // Note: The toUpperCase() method does not change the original string.
@@ -75,6 +81,7 @@ console.log("last character:", lastCharacter);
 // var res = str.toUpperCase();
 // console.warn("res toUpperCase(): ", res) // res toUpperCase():  HELLO WORLD!
 // ======================================================
+
 // ***** String substring() Method *****
 // The substring() method extracts the characters from a string, between two specified indices, and returns the new sub string.
 // This method extracts the characters in a string between "start" and "end", not including "end" itself.
@@ -85,6 +92,7 @@ console.log("last character:", lastCharacter);
 // var res = str.substring(1, 4);
 // console.warn("res substring(): ", res) // res substring():  ell
 // ======================================================
+
 // ***** String toString() Method *****
 // The toString() method returns the value of a String object.
 // var str = 2020;
