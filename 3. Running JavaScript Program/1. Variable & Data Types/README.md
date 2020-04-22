@@ -11,7 +11,7 @@ In JavaScript, there are 3 types of quotes.
 
 Example
 ```
-let exampleString = "Hello JavaScript!"
+let exampleString = "Hello JavaScript!";
 ```
 
 ## Number
@@ -19,12 +19,37 @@ The number type represents both integer and floating point numbers. There are ma
 
 Example
 ```
-let exampleNumber = 2020
+let exampleNumber = 2020;
 ```
 
 ## Boolean
 The boolean type has only two values: true and false.
 Example
 ```
-let exampleBoolean = true
+let exampleBoolean = true;
+```
+
+## Array
+- The Array "object" is used to store an ordered list of multiple values in a single variable.
+- Array indexes, like string indexes, are zero-based: the first element in an array is located at index 0, the second at index 1, and so on.
+- Arrays are considered "objects" in JavaScript, for several reasons, none of which truly matter to us at this point.
+
+Example
+```
+let fruits = ["Apple", "Orange", "Plum"];
+```
+
+## Object
+- An object is a collection of properties
+- A property is an association between a name (key) and a value (some data type)
+- A property's value can be any of the types we have gone over, as well as being another object, or even a function
+- In the case where the value of a property is a function, we refer to the property as a method
+
+Example
+```
+let person = {
+    name: "Nick",
+    favoriteLanguage: "Ruby",
+    experienceInYears: 16,
+};
 ```
