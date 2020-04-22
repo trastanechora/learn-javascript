@@ -15,9 +15,8 @@ Congratulation you have ran JS file in your terminal successfully, lets take a d
 
 # What we gonna learn in this section?
 In this section we will learn about
-1. Variable 
-2. Data Types
-3. Arithmetic Operations
-4. Branching conditions
-5. Looping
-6. Function
+1. Variable & Data Types
+2. Arithmetic Operations
+3. Branching conditions
+4. Looping
+5. Function
