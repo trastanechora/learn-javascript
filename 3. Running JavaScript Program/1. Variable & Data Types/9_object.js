@@ -28,5 +28,6 @@ let superHero = {
 	villain: "Joker",
 };
 
+// Check the type of a variable with "typeof"
 let result = typeof superHero;
 console.log("calling typeof on an object gives us:", result);

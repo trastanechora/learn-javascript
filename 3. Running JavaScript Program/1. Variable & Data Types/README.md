@@ -3,6 +3,12 @@ Variables are used to store information in a computer program, they provide a wa
 
 Variable naming is in `camelCase` and you can declare any variable with `var`, `let`, and `const`
 
+|       | Redeclare | Hoisting | Block Scope | Global Props | Change Value |
+|-------|-----------|----------|-------------|--------------|--------------|
+| var   | Yes       | Yes      | No          | Yes          | Yes          |
+| let   | No        | No       | Yes         | No           | Yes          |
+| const | No        | No       | Yes         | No           | No           |
+
 ## String
 In JavaScript, there are 3 types of quotes.
 1. Double quotes: "Hello".
@@ -49,7 +55,7 @@ Example
 ```
 let person = {
     name: "Nick",
-    favoriteLanguage: "Ruby",
+    favoriteLanguage: "JavaScript",
     experienceInYears: 16,
 };
 ```
