@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width" />
+   <title>ATA</title>
+ </head>
+ <body>
+   <p onClick="this.innerHTML='You Got Me!'">Click Me!</p>
+   <p class="demo"></p>
+   <button onclick="pressKey();">Press Me!</button>
+   <script>
+     function pressKey() {
+       var x = document.getElementsByClassName("demo");
+       x[0].innerHTML = "Great!";
+     }
+   </script>
+ </body>
+</html>

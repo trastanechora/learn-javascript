@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <style>
+    .demoClass {
+    color: red;
+  }
+  </style>
+</head>
+<body>
+  <h1 class="demoClass">Hello Alterra</h1>
+  <p>Please input your name:</p>
+  <input id="input-field" />
+  <button onclick="myFunction()">Get Value</button>
+  <br />
+  <p class="demo"></p>
+<script>
+  function myFunction() {
+    let valueInput = document.getElementById("input-field").value
+    // console.log("valueInput:", valueInput)
+    let processedInput = `Hello ${valueInput}, Alterra is awesome, right? :)`
+    var x = document.getElementsByClassName("demo");
+    x[0].innerHTML = processedInput;
+ }
+</script>
+
+</body>
+</html>

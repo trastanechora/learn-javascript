@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <style>
+    .demoClass {
+    color: red;
+  }
+  </style>
+</head>
+<body>
+  <h1>Hello Alterra</h1>
+  <button onclick="myFunction()">Add Class</button>
+<script>
+  function myFunction() {
+    var h1 = document.getElementsByTagName("H1")[0];
+    var att = document.createAttribute("class");
+    att.value = "demoClass";
+    h1.setAttributeNode(att);
+ }
+</script>
+
+</body>
+</html>
