@@ -27,6 +27,7 @@ console.log(thirdCharacter); // will log 'r'
 // can use only `let`, but later you will learn by doing about their differences and it's importance
 
 // ======================================================================
+console.log("======================================================================")
 
 // Substring Method
 let originalString = "001Turing";
@@ -48,8 +49,8 @@ console.log("restOfString_3:", restOfString_3);
 
 // Parse a Number from a String
 let title = "001Turing";
-let firstThree = title.substring(0, 3);
+let threeDigit = title.substring(0, 3);
 
-let parsedNumber = parseInt(firstThree);
+let parsedNumber = parseInt(threeDigit);
 console.log("type of parsedNumber:", typeof parsedNumber);
 console.log("value of parsedNumber:", parsedNumber);
