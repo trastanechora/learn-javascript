@@ -11,3 +11,4 @@
   - <a href="https://github.com/trastanechora/learn-javascript/tree/master/3.%20Running%20JavaScript%20Program/4.%20Looping" target="_blank">Looping</a>
   - <a href="https://github.com/trastanechora/learn-javascript/tree/master/3.%20Running%20JavaScript%20Program/5.%20Function" target="_blank">Function</a>
 4. <a href="https://github.com/trastanechora/learn-javascript/tree/master/4.%20DOM" target="_blank">Document Object Model (DOM)</a>
+5. <a href="https://github.com/trastanechora/learn-javascript/tree/master/5.%20Async%20Await" target="_blank">Asynchronous</a>
