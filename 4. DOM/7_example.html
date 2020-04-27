@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width" />
+   <title>ATA</title>
+ </head>
+ <body>
+   <p>Please Input your name:</p>
+   <p class="demo"></p>
+   <input id="input-field">
+   <button onclick="pressKey();">Press Me!</button>
+   <script>
+     function pressKey() {
+       var userInput = document.getElementById("input-field").value
+       var x = document.getElementsByClassName("demo");
+       var processedInput = `Hello ${userInput}, JavaScript is awesome, rigth?`
+       x[0].innerHTML = processedInput;
+     }
+   </script>
+ </body>
+</html>

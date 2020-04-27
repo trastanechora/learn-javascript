@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Playground learn JavaScript</title>
+  </head>
+  <body>
+    <div id="game-normal">This is the normal mode!</div>
+    <div id="game-hard">This is the hard mode!</div>
+    <button id="choose-normal">Choose Normal</button>
+    <button id="choose-hard">Choose Hard</button>
+    <script>
+      // Display only normal mode as default start-up
+      document.getElementById("game-hard").hidden = true;
+
+      // Click normal button
+      document.getElementById("choose-normal").onclick = function () {
+        document.getElementById("game-hard").hidden = true;
+        document.getElementById("game-normal").hidden = false;
+      }
+
+      // Click hard button
+      document.getElementById("choose-hard").onclick = function () {
+        document.getElementById("game-hard").hidden = false;
+        document.getElementById("game-normal").hidden = true;
+      }
+    </script>
+  </body>
+</html>
